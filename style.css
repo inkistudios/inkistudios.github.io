@@ -112,6 +112,11 @@ p {
   }
 }
 
+.nobreak {
+  white-space: nowrap;
+  word-break: keep-all;
+}
+
 .icon-block {
   padding: 0 15px;
 }
