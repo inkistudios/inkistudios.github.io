@@ -1,0 +1,132 @@
+/* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+  position: static;
+  left: unset;
+  transform: unset;
+
+}
+
+.parallax-container h1 {
+  font-size: 3.2em;
+  margin: 1.2rem 0 0.8rem 0;
+}
+
+.parallax-container .parallax {
+  z-index: 0;
+}
+
+.parallax-container .section {
+  z-index: 1;
+  position: relative;
+}
+
+.icon-block {
+  text-align: center;
+}
+
+.brand-logo img {
+  width: 200px;
+}
+
+.main-nav {
+  background: #222;
+  height: 100px;
+  box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+}
+
+nav .nav-wrapper {
+  text-align: center;
+}
+
+.header h1 {
+
+}
+
+h5 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.glow {
+  text-shadow:
+    1px 0px 1px #444, 0px 1px 1px #000,
+    2px 1px 1px #444, 1px 2px 1px #000,
+    3px 2px 1px #444, 2px 3px 1px #000,
+    4px 3px 1px #444, 3px 4px 1px #000,
+    5px 4px 1px #444, 4px 5px 1px #000,
+    6px 5px 1px #444, 5px 6px 1px #000,
+    7px 6px 1px #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 400px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+.parallax-container .parallax img {
+  /* width: 100%; */
+}
+
+.banner-wrapper {
+  background-color: #000;
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  text-align: center;
+  background: #222;
+}
+
+.page-footer a {
+  color: #fff;
+  font-weight: bold;
+}
